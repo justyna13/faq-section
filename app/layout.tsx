@@ -10,6 +10,7 @@ export const metadata: Metadata = {
 };
 
 const workSans = Work_Sans({
+	subsets: ['latin'],
 	variable: '--work-sans',
 	weight: ['400', '600', '700'],
 });
