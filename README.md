@@ -9,4 +9,4 @@ It's a simple FAQ component written in Next.js
 
 ## Demo
 
-todo
+<a href="https://faq-section-4un9.vercel.app/" target="_blank">https://faq-section-4un9.vercel.app/</a>
