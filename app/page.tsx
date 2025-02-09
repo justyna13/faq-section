@@ -1,7 +1,3 @@
 export default function Home() {
-  return (
-    <div>
-   faq section
-    </div>
-  );
+	return <div>faq section</div>;
 }

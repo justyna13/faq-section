@@ -3,18 +3,14 @@
 @tailwind utilities;
 
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+	--background: hsl(0, 0%, 100%);
+	--foreground: hsl(292, 42%, 14%);
+	--pink: hsl(275, 100%, 97%);
+	--purple: hsl(292, 16%, 49%);
 }
 
+/*same colors for dark mode*/
 @media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
-}
-
-body {
-  color: var(--foreground);
-  background: var(--background);
+	:root {
+	}
 }
