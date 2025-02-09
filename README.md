@@ -1,6 +1,6 @@
 # Frontend Mentor - Faq section
 
-![Design preview for the Faq section coding challenge](design/desktop-preview.jpg)
+![Design preview for the Faq section coding challenge](design/preview.png)
 
 ## The challenge
 
