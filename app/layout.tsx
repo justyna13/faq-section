@@ -23,11 +23,16 @@ export default function RootLayout({
 		<html lang="en">
 			<body
 				className={cn(
-					'min-h-screen bg-background font-work-sans text-base text-foreground antialiased',
+					'min-h-screen font-work-sans text-base antialiased',
 					workSans.variable,
 				)}
 			>
-				{children}
+				<div className="relative min-h-screen bg-pink p-4">
+					<div className="absolute left-0 top-0 z-0 h-[200px] w-full bg-[url('/background-pattern-mobile.svg')] bg-cover bg-center md:h-[42vh] md:bg-[url('/background-pattern-desktop.svg')]" />
+					<div className="relative z-10 mt-[95px] flex justify-center md:mt-0 md:min-h-screen md:items-center">
+						{children}
+					</div>
+				</div>
 			</body>
 		</html>
 	);
